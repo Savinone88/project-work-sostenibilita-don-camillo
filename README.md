@@ -35,3 +35,7 @@ Non sono stati utilizzati framework o librerie esterne, al fine di mantenere il 
 ## Struttura del progetto
 
 La repository contiene i seguenti file:
+index.html
+style.css
+DONCAMILLO_2024_BilancioSostenibilita23_TASTI.pdf
+DONCAMILLO_2025_BilancioSostenibilita_24.pdf
