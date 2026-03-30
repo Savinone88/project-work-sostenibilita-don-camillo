@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sostenibilità - Agricola Don Camillo</title>
+
+    <!--
+        Collegamento al file CSS esterno.
+        In questo modo la struttura della pagina rimane separata dalla parte grafica.
+        Tale scelta rende il progetto più ordinato e più semplice da aggiornare.
+    -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--
+        Contenitore principale della pagina.
+        Serve a racchiudere tutti i contenuti e a mantenere l'impaginazione centrata.
+    -->
+    <div class="container">
+
+        <!--
+            Intestazione iniziale della pagina.
+            Presenta subito all'utente il tema della sezione web,
+            chiarendo che si tratta di uno spazio dedicato alla sostenibilità.
+        -->
+        <header class="hero">
+            <h1>Report di sostenibilità</h1>
+            <p>
+                Società Agricola Don Camillo S.c.r.l. - Filiera ortofrutticola,
+                trasparenza aziendale e accesso ai documenti ufficiali.
+            </p>
+        </header>
+
+        <!--
+            Sezione introduttiva dedicata all'impresa.
+            Qui riassumo in modo sintetico il contesto aziendale,
+            così che anche un utente che non conosce la società
+            possa comprendere rapidamente chi sia il soggetto presentato.
+        -->
+        <section class="section intro">
+            <h2>L’impresa</h2>
+            <p>
+                Agricola Don Camillo è una organizzazione di produttori del comparto
+                ortofrutticolo italiano. L’impresa coordina una filiera che collega
+                produzione agricola, lavorazione, confezionamento e distribuzione,
+                valorizzando prodotti come il Melone Mantovano IGP, le angurie,
+                le zucche e altri prodotti stagionali. La società opera con una forte
+                attenzione alla qualità, alla tracciabilità della filiera e alla
+                progressiva integrazione di pratiche sostenibili sul piano ambientale,
+                sociale e organizzativo.
+            </p>
+        </section>
+
+        <!--
+            Sezione centrale della pagina.
+            Contiene alcune schede sintetiche che presentano i principali ambiti
+            della sostenibilità aziendale emersi dall'analisi del report.
+            Ho scelto una struttura a blocchi per rendere la lettura immediata.
+        -->
+        <section class="section pillars">
+            <h2>Attività sviluppate nell’ambito della sostenibilità</h2>
+
+            <div class="cards">
+
+                <!--
+                    Prima scheda: sostenibilità di filiera.
+                    Riassume il legame tra produzione, controllo qualità e tracciabilità.
+                -->
+                <article class="card">
+                    <h3>Filiera responsabile</h3>
+                    <p>
+                        L’impresa coordina una filiera strutturata che parte dalla scelta
+                        delle varietà e dei terreni, prosegue con l’assistenza tecnica ai soci
+                        conferenti e arriva fino alla raccolta, alla lavorazione e alla
+                        distribuzione. Questo modello favorisce controllo, qualità e coerenza
+                        lungo l’intero processo produttivo.
+                    </p>
+                </article>
+
+                <!--
+                    Seconda scheda: dimensione ambientale.
+                    In questa parte sintetizzo i temi relativi a energia, acqua,
+                    emissioni, rifiuti e materiali di confezionamento.
+                -->
+                <article class="card">
+                    <h3>Gestione delle risorse</h3>
+                    <p>
+                        La rendicontazione evidenzia attenzione verso consumi energetici,
+                        autoproduzione da impianti fotovoltaici, monitoraggio delle emissioni,
+                        uso responsabile dell’acqua, miglioramento nella gestione dei rifiuti
+                        e progressiva attenzione a soluzioni di confezionamento più sostenibili.
+                    </p>
+                </article>
+
+                <!--
+                    Terza scheda: dimensione sociale.
+                    Qui vengono valorizzati lavoro, sicurezza, formazione e welfare.
+                -->
+                <article class="card">
+                    <h3>Persone e territorio</h3>
+                    <p>
+                        Don Camillo riconosce il ruolo centrale delle persone nella qualità
+                        del processo produttivo. Per questo investe nella sicurezza sul lavoro,
+                        nella formazione, nella valorizzazione delle competenze e nel rapporto
+                        con il territorio, considerato parte integrante del percorso di crescita.
+                    </p>
+                </article>
+
+                <!--
+                    Quarta scheda: governance e trasparenza.
+                    Serve a mostrare che la sostenibilità non riguarda solo l'ambiente,
+                    ma anche il modo in cui l'impresa governa e documenta le proprie attività.
+                -->
+                <article class="card">
+                    <h3>Governance e trasparenza</h3>
+                    <p>
+                        La società ha progressivamente rafforzato gli strumenti di governance,
+                        il dialogo con gli stakeholder e la formalizzazione delle proprie scelte,
+                        pubblicando report di sostenibilità che rendono visibili obiettivi,
+                        risultati e linee di miglioramento.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!--
+            Sezione dedicata al download dei report.
+            È la parte più operativa della pagina, perché consente all'utente
+            di scaricare direttamente i documenti ufficiali in formato PDF.
+            Gli attributi target e download rendono più immediata la fruizione.
+        -->
+        <section class="section download">
+            <h2>Scarica i report di sostenibilità</h2>
+            <p>
+                In questa area sono disponibili i documenti ufficiali pubblicati
+                dall’impresa, consultabili e scaricabili per approfondire il percorso
+                di sostenibilità descritto nella presente pagina.
+            </p>
+
+            <div class="download-box">
+                <a class="download-btn" href="DONCAMILLO_2024_BilancioSostenibilita23_TASTI.pdf" target="_blank" download>
+                    Bilancio di sostenibilità 2023
+                </a>
+
+                <a class="download-btn" href="DONCAMILLO_2025_BilancioSostenibilita_24.pdf" target="_blank" download>
+                    Rendicontazione di sostenibilità 2024
+                </a>
+            </div>
+        </section>
+
+        <!--
+            Sezione conclusiva.
+            Ha la funzione di chiudere la pagina con un breve richiamo al valore
+            della trasparenza e alla finalità informativa dei report pubblicati.
+        -->
+        <section class="section closing">
+            <h2>Una sostenibilità leggibile e accessibile</h2>
+            <p>
+                La pagina è stata progettata per rendere più semplice l’accesso ai
+                contenuti di sostenibilità aziendale, organizzando in modo chiaro le
+                informazioni principali e offrendo un collegamento diretto ai documenti ufficiali.
+            </p>
+        </section>
+
+    </div>
+</body>
+</html>
